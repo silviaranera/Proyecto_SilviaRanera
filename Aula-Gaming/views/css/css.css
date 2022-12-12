@@ -1,0 +1,106 @@
+
+html{
+    width: 100%;
+    height: auto;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 576px) {
+    html { font-size: 1.25rem; }
+    .primero { padding: 100px 90px 100px 100px; }
+    .segundo { padding: 60px 100px 60px 100px; }
+    .copyright{padding-left: 30px;}
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+    .primero { padding: 100px 90px 100px 80px;}
+    .segundo{ padding: 60px 100px 60px 100px;}
+    .copyright{padding-left: 30px;}
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+    .primero { padding: 100px 90px 100px 100px;}
+    .segundo{ padding: 60px 100px 60px 100px;}
+    .copyright{padding-left: 38px;}
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+    .primero { padding: 100px 90px 100px 100px;}
+    .segundo{ padding: 60px 100px 60px 100px;}
+    .copyright{padding-left: 38px;}
+}
+
+/*
+@font-face {
+    font-family: 'GeneralSans-Bold';
+    src: url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Bold.woff2') format('woff2'),
+         url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Bold.woff') format('woff'),
+         url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Semibold.woff2') format('woff2'),
+         url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Semibold.woff') format('woff'),
+         url('../font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../font/Inter/static/Inter-Medium.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+}
+*/
+.primero {
+    /*background-color: #6e6967;*/
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 100px 100px 100px 90px;
+}
+
+.titulo {
+    color: #fcfcfc ;
+    text-align: left;
+    font-family: 'GeneralSans-Bold';
+}
+
+.cuerpo {
+    padding-right: 60px;
+    color: #cfc8c6 ;
+    text-align: left;
+    font-family: 'Inter-Medium';
+    font-size: 16px;
+}
+
+.segundo {
+    background-color: #31343f;
+    padding: 60px 100px 60px 100px;
+    font-size: 24px;
+    font-family: 'Inter-Medium';
+    text-align: center;
+}
+
+footer{ 
+    background-color: #561669 ;
+}
+
+.copyright{
+    background-color: #561669 ;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 40px;
+    padding-left: 50px;
+    min-height: 100px;
+}
+

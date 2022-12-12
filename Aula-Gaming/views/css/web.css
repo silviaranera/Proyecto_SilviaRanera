@@ -1,0 +1,162 @@
+	@media (max-width: 400px) {
+		#horario{
+			display:none;
+		}
+		#ubicacion{
+			font-size: 10pt;
+		}
+		iframe{
+			display:none;
+		}
+		#contacto{
+			font-size: 10pt;
+		}
+		.menuc a {
+			padding: 10px 12px;
+			min-width:800px;
+		}
+
+	}
+	@media (max-width: 500px) {
+		#horario{
+			display:none;
+		}	
+		#ubicacion{
+			font-size: 10pt;
+		}
+		#contacto{
+			font-size: 10pt;
+		}
+		.menuc a {
+			padding: 10px 12px;
+			min-width:800px;
+		}
+	}
+	
+	@media (min-width: 700px) {
+		.horario{
+			font-size: 14pt;
+		}
+		iframe{
+			width:600; 
+			height:450;
+		}	
+		.menuc a {
+			font-size: 25pt;
+			min-width:400px;
+		}
+		
+	}
+	
+	
+	.home{
+		background-color: #BA0303;
+	}
+	
+	.menuc {
+		background-color: #333; 
+		overflow: hidden;
+	}
+	
+	.menuc a {
+		float: left;
+		color: white;
+		/*text-align: center;*/
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family:arial;
+		min-width:200px;
+	}
+	
+	.menuc a:hover {
+		background-color: white;
+		color: black;
+	}
+
+                  
+    li{
+		list-style-type:none;
+		position:relative;
+		width:120px;
+    }
+               
+    li a{
+		text-decoration:none;
+		display:inline-block;
+		padding:14px 16px;
+		width:120px;
+		height:30px;
+		border:1px solid #333;
+		color:#fff;
+		background-color:#333;
+		font-family:arial;
+    }
+            
+    li a:hover{
+		color:#000;
+		background-color:#fff;            
+    }
+    			
+	body{
+		 background-color:#ddd;
+	}
+	
+	fieldset {
+		background-color:white;
+		color:#BA0303;
+		font-weight:bold;
+		font-family:"arial";
+		font-size:11pt;
+		line-height:1.75em;
+		margin:30px;
+		border: 5px solid #871313 ;
+	}
+	
+	p{
+		font-size:12pt;
+		clear:left;
+	}
+
+	input{
+		text-align: center;
+	}
+		
+	.titulo{
+		color:black;
+	}
+	
+	#inf{
+		text-align: center;
+		top:200px;		
+	}
+
+	.horario{
+		margin:0 auto;
+	}
+
+	.horario th{
+		padding:2px 5px 2px 5px;
+		background-color:white;
+		color:#BA0303;
+		text-align: center;
+	}
+	.horario td{
+		padding:2px 5px 2px 5px;
+		background-color:white;
+		color:black;	
+	}
+	 footer{ 
+		background-color: #333; 
+	}
+
+	.copyright{
+		background-color: #333; 
+		color: #ffffff; 
+		text-align: center;
+		font-size: 10pt;
+		padding-top: 40px;
+		padding-left: 50px;
+		min-height: 100px;
+	}
+	
