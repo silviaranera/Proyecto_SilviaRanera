@@ -21,7 +21,7 @@
         $idjuego = $_POST["ids"];
         $idcompeticion = obtenerid($conexion);
 		//var_dump($_POST);
-		if(isset($_POST["enviarm"])){
+		if(isset($_POST["enviar"])){
             if($_POST["puntos"] !="" && $_POST["fecha"] !="")
             {      
                 alta($conexion,$idcompeticion,$idjuego,$alumno,$puntos,$fecha);
