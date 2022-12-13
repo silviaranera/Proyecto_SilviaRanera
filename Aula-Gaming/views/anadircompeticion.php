@@ -49,7 +49,7 @@
                             <label name="puntos">Puntos</label><br>
                             <input class="form-control-md" type="text" name="puntos"><br><br>
                                         
-                            <button type="submit" name="enviart" value="Continuar" style="background-color:#fcfcfc; color:#000000; box-shadow:3px 3px 10px red;"> Enviar datos </button> &nbsp;&nbsp;&nbsp;
+                            <button type="submit" name="enviar" value="Continuar" style="background-color:#fcfcfc; color:#000000; box-shadow:3px 3px 10px red;"> Enviar datos </button> &nbsp;&nbsp;&nbsp;
                             <button type="submit" name="volver" value="Volver" style="background-color:#fcfcfc; color:#000000; box-shadow:3px 3px 10px red;" onclick="window.location.href='views/menuadmin.php'"> Volver </button>
                             
                         </form>
